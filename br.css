@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* grid-template-areas: ". Header Header Header" ". . Container ." ". . Container ." ". Footer Footer Footer"; */
+  }
+  
+  .Header { grid-area: Header; }
+  
+  .Container { grid-area: Container; }
+  
+  .Footer { grid-area: Footer; }
