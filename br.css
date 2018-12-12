@@ -8,11 +8,17 @@ header {
   }
 
 main {
-  grid-template-rows: 1fr ;
-  column-span: all;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   padding-left: 100px;
   padding-right: 100px;
-  align-items: center; 
+  align-items: center;
+  background-image: url(sne.jpg);
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  
 }
 
 input {
@@ -20,7 +26,10 @@ input {
   padding: 5px 5px 5px 5px;
   height: 100%;
   border-width: 3px;
-  width: 150%;
+  width: 125%;
+  text-align: left;
+  column-span: all;
+  justify-items: center;
 }
 
 button {
@@ -30,14 +39,10 @@ height: 100%;
 border-width: 3px;
 background-color: #ffff;
 width: 100%;
+text-align: left;
 }
 
-body {
-  background-image: url(sne.jpg);
-}
 
-p {
-  padding-left: 100px;
-  padding-right: 100px;
-}
+
+
   
