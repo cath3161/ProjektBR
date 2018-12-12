@@ -15,9 +15,6 @@ main {
     padding-right: 100px;
     align-items: center;
     background-image: url(sne.jpg);
-    padding-left: 100px;
-    padding-right: 100px;
-    align-items: center;
     
   }
 
@@ -30,6 +27,7 @@ input {
     text-align: left;
     column-span: all;
     justify-items: center;
+    border-color: red;
 }
 
 button {
@@ -41,4 +39,5 @@ button {
     background-color: #ffff;
     width: 100%;
     align-items: center;
+    border-color: red;
     }

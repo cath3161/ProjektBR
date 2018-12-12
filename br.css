@@ -3,7 +3,6 @@ header {
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
-    column-span: all;
  
   }
 
@@ -11,13 +10,10 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  padding-left: 100px;
+  padding-left: 80px;
   padding-right: 100px;
   align-items: center;
   background-image: url(sne.jpg);
-  padding-left: 100px;
-  padding-right: 100px;
-  align-items: center;
   
 }
 
@@ -25,21 +21,22 @@ input {
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
   height: 100%;
-  border-width: 3px;
+  border-width: thick;
   width: 125%;
   text-align: left;
-  column-span: all;
   justify-items: center;
+  border-color: red;
 }
 
 button {
 border-radius: 10px;
 padding: 5px 5px 5px 5px;
-height: 100%;
 border-width: 3px;
 background-color: #ffff;
-width: 100%;
-text-align: left;
+text-align: center;
+height: 100%;
+width: 110%;
+border-color: red;
 }
 
 
