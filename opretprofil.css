@@ -1,0 +1,44 @@
+
+header {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    column-span: all;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    background-image: url(sne.jpg);
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    
+  }
+
+input {
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    height: 100%;
+    border-width: 3px;
+    width: 125%;
+    text-align: left;
+    column-span: all;
+    justify-items: center;
+}
+
+button {
+    display: grid;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    height: 100%;
+    border-width: 3px;
+    background-color: #ffff;
+    width: 100%;
+    align-items: center;
+    }
