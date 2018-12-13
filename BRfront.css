@@ -1,0 +1,28 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center; 
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    background-image: url(sne.jpg);
+}
+
+
+main img {
+    background-color: white;
+}
+ 
+select {
+    width: 100%;
+    height: 30%;
+    grid-column: span 2;
+    
+}

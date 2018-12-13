@@ -1,0 +1,58 @@
+header {
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+grid-gap: 20px;
+}
+ 
+main {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     background-image: url(sne.jpg);
+ }
+
+h3 {
+  text-align: center;
+  font-size: 14;
+  grid-gap: 50%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 14;
+  grid-gap: 50%;  
+}
+
+ table#t01 {
+    width: 100%; 
+    text-align: center;
+    font-size: 12px;
+  } 
+
+  th {
+    background-color: white;
+    color: black;
+  }
+
+  tr {
+    background-color: white;
+    color: black;
+  }
+
+  td{
+    background-color: white;
+    color: black;
+  }
+  
+  table#t02 {
+    width: 100%; 
+    text-align: center;
+    font-size: 12px;
+  } 
+
+footer {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 50px;
+
+ }
