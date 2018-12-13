@@ -13,10 +13,22 @@
         <img src="ønskebogen.png" alt="" width="250">
     </header>
     <main>
-        <img src="Pokemon.jpg" alt="" width="150" height="100" style="border:2px solid red">
-        <img src="Barbie.jpg" alt="" width="150" height="100" style="border:2px solid red">
-        <button style="button">Køb</button>
-        <button style="button">Købt</button>
+        <ol style="
+            grid-column: span 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0;">
+            <li style="order:1;"><img class="images" src="Pokemon.jpg" alt="" width="150" height="100" style="border:2px solid red"></li>
+            <li style="order:3;"><img class="images" src="Barbie.jpg" alt="" width="150" height="100" style="border:2px solid red"></li>
+            <li style="order:2;">
+                <p>Pris: 199,-kr.</p>
+                <button class="submitButton1" style="button">Køb</button></li>
+            <li style="order:4;">
+                <p>Pris: 249,95,-kr.</p>
+                <button class="submitButton2" style="button">Købt</button></li>
+           
+        </ol>
+        
     </main>
     <footer></footer>
 </body>
