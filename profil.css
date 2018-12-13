@@ -2,6 +2,8 @@ header {
 display: grid;
 grid-template-columns: 1fr 3fr 1fr;
 grid-gap: 20px;
+justify-items: center;
+align-items: center;
 }
  
 main {
@@ -17,42 +19,64 @@ h3 {
   grid-gap: 50%;
 }
 
-h3 {
+h4 {
   text-align: center;
   font-size: 14;
-  grid-gap: 50%;  
+  grid-gap: 50%; 
+  grid-column: span 2; 
 }
 
- table#t01 {
+ .table1 {
     width: 100%; 
     text-align: center;
     font-size: 12px;
+    justify-items: right;
+    align-items: right;
   } 
 
-  th {
+  th, td, tr {
     background-color: white;
     color: black;
+    padding: 10px 10px 10px 10px;
   }
 
-  tr {
-    background-color: white;
-    color: black;
-  }
-
-  td{
-    background-color: white;
-    color: black;
-  }
-  
-  table#t02 {
+ .table2 {
     width: 100%; 
     text-align: center;
     font-size: 12px;
+    justify-items: center;
+    align-items: center;
+    grid-column: span 2;
   } 
 
-footer {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-gap: 50px;
+  h5 {
+    grid-column: span 2; 
+  }
 
+.submitButton {
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    border-width: 3px;
+    background-color: #ffff;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    border-color: red;
+    min-width: 220px;
+    /* margin: auto; */
+    display: block;
+  }
+
+.submitButton {
+  margin: auto;
+  /* align-content: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 2%;
+}  
+}
+
+ img {
+   align-items: right;
+   justify-items: right;
  }
