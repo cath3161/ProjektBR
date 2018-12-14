@@ -20,6 +20,7 @@ main {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 0 20px;
+  width: 70%; 
 }
 
 input {
@@ -75,7 +76,8 @@ a {
   border-style: solid;
   text-align: center;
   justify-content: center;
-
+  padding: 20px;
+  top: 50%;
 }
 
 
