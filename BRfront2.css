@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    display:grid;
+    display: grid;
     grid-template-columns:1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     grid-gap: 10px;
@@ -55,4 +55,8 @@ select {
     height: 30%;
     grid-column: span 2;
     border-radius: 10px;
+}
+
+a {
+    border-style: solid;
 }

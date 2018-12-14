@@ -11,11 +11,15 @@ header {
   }
 
 main {
-  /* display: grid; */
+  display: grid; 
   align-items: center;
   background-image: url(sne.jpg);
   background-size: cover;
   padding: 5%;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 0 20px;
 }
 
 input {
@@ -24,13 +28,13 @@ input {
   height: 100%;
   border-width: thick;
   width: 70%;
-  text-align: left;
+  text-align: center;
   justify-items: center;
   border-color: red;
   min-width: 270px;
 }
 
-.inputContainer,
+.inputContainer, 
 .submitButton{
   margin: auto;
   /* align-content: center; */
@@ -39,7 +43,7 @@ input {
   margin-top: 2%;
 }
 
-.inputContainer,
+.inputContainer, 
 .submitButton {
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
@@ -64,6 +68,14 @@ p{
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+a {
+  
+  border-style: solid;
+  text-align: center;
+  justify-content: center;
+
 }
 
 

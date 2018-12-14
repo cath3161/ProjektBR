@@ -12,14 +12,18 @@ body{
     }
   
   main {
-    /* display: grid; */
+    display: grid;
     align-items: center;
     background-image: url(sne.jpg);
     background-size: cover;
     padding: 5%;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 0 20px;
    
   }
-  
+     
   input {
     border-radius: 10px;
     padding: 5px 5px 5px 5px;
@@ -58,4 +62,8 @@ body{
   
   .inputContainer{
     min-width: 270px;
+  }
+
+  a {
+    border-style: solid;
   }
