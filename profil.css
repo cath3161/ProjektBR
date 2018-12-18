@@ -4,13 +4,13 @@ grid-template-columns: 1fr 3fr 1fr;
 grid-gap: 20px;
 justify-items: center;
 align-items: center;
+background-color: #ffff;
 }
  
 main {
      display: grid;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr 1fr;
-     background-image: url(sne.jpg);
  }
 
 h3 {
@@ -78,3 +78,9 @@ h4 {
    align-items: right;
    justify-items: right;
  }
+
+ body {
+  background-image: url(sne.jpg);
+  padding: 0;
+  margin: 0;
+}

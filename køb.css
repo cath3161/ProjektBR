@@ -3,13 +3,13 @@ header {
     grid-template-columns: 1fr 3fr 1fr;
     justify-items: center;
     align-items: center;
+    background-color: #ffff;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-image: url(sne.jpg);
 }
 
 li {
@@ -45,10 +45,13 @@ li {
     justify-items: left;
     float: left;
     margin-right: 10px;
-
-    
-
 }
+
+body {
+    background-image: url(sne.jpg);
+    padding: 0;
+    margin: 0;
+  }
 
 
 
