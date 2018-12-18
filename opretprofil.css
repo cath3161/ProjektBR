@@ -1,69 +1,31 @@
-body{
-    margin:unset; 
-    grid-gap: 30px;
-  }
-  
-  header {
-      display: grid;
-      grid-template-rows: 1fr;
-      justify-items: center;
-      align-items: center;
-   
-    }
-  
-  main {
-    display: grid;
-    align-items: center;
-    background-image: url(sne.jpg);
-    background-size: cover;
-    padding: 5%;
-    grid-gap: 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin: 0 20px;
-   
-  }
-     
-  input {
-    border-radius: 10px;
-    padding: 5px 5px 5px 5px;
-    height: 100%;
-    border-width: thick;
-    width: 70%;
-    text-align: left;
-    justify-items: center;
-    border-color: red;
-    min-width: 270px;
-  }
-  
-  .inputContainer,
-  .submitButton{
-    margin: auto;
-    /* align-content: center; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    margin-top: 2%;
-  }
-  
-  .inputContainer,
-  .submitButton {
-    border-radius: 10px;
-    padding: 5px 5px 5px 5px;
-    border-width: 3px;
-    background-color: #ffff;
-    text-align: center;
-    height: 100%;
-    width: 60%;
-    border-color: red;
-    min-width: 220px;
-    /* margin: auto; */
-    display: block;
-  }
-  
-  .inputContainer{
-    min-width: 270px;
-  }
+.inputContainer, .submitButton, .glemtAdgangskode {
+  display: block;
+  font-size: 1rem;
 
-  a {
-    border-style: solid;
-  }
+}
+.inputContainer, .submitButton {
+  border: 2px solid red;
+  border-radius: 10px;
+
+  padding: 1rem;
+  text-align: center;
+  background-color: #ffff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  max-width: 480px;
+  padding: 0 10%;
+  margin: 0 auto;
+  background-image: url(sne.jpg);
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+
+}

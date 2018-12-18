@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>BR (JWB version)</title>
+    <!-- <link rel="stylesheet" href="logind.css"> -->
+
+    <style>
+    /* JWB forslag til ændringer */
+    .inputContainer, .submitButton, .glemtAdgangskode {
+      display: block;
+      font-size: 1rem;
+
+    }
+    .inputContainer, .submitButton {
+      border: 1px solid red;
+      border-radius: 10px;
+
+      padding: 1rem;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: currentColor;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+      max-width: 480px;
+      padding: 0 10%;
+      margin: 0 auto;
+    }
+
+
+    </style>
+</head>
+<body>
+<header>
+   <img src="BRlogo.jpg" alt="" width="125">
+   <img src="ønskebogen.png" alt="" width="300">
+</header>
+<main>
+  <input  class="inputContainer" type="text" placeholder="Brugernavn">
+  <input  class="inputContainer" type="text" placeholder="Adgangskode">
+  <a href="BR.html" class="submitButton">Log ind</a>
+  <a href="opretprofil.html" class="submitButton">Opret Profil</a>
+  <a href="#" class="glemtAdgangskode">Glemt adgangskode?</a>
+</main>
+<footer></footer>
+
+</body>
+</html>
