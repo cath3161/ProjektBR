@@ -24,7 +24,7 @@
     max-width: 480px;
     padding: 0 10%;
     margin: 0 auto;
-    background-image: url(sne.jpg);
+
   }
 
   header {
@@ -32,6 +32,13 @@
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
+    background-color: #ffff;
  
+  }
+
+  body {
+    background-image: url(sne.jpg);
+    padding: 0;
+    margin: 0;
   }
 
